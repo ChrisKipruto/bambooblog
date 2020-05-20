@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.border-light-pink {
+    --border-opacity: 1;
+    border-color: #ff4081;
+    border-color: rgb(255, 64, 129 , var(--border-opacity));
+}
+
+.light-pink-accent-text {
+    color: #ff4081;
+}
+
+a.hover-white:hover {
+    color: white !important;
+    transition: all ease .2s;
+}
+
+/* navbar */
+#mainNavbar .navbar-nav li a {
+    text-transform: uppercase;
+    font-size: .65rem;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+#mainNavbar .navbar-nav li a:hover {
+    color: #ff4081;
+    transition: all ease .2s;
+}
+
+
+/* notification */
+#notification {
+    position: absolute;
+    top: 13%;
+    right: .1%;
+    width: 20em;
+    /* display: none; */
+}
